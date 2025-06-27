@@ -75,7 +75,7 @@ tools=[
 
 
 agent = create_react_agent(llm=groq_llm ,tools=tools, prompt=prompt)
-agent_executor = AgentExecutor(agent=agent,tools=tools, verbose=True)
+agent_executor = AgentExecutor(agent=agent,tools=tools, verbose=True,handle_parsing_errors=True)
 
 ##memory
 #config={"configurable":{"thread_id":"1"}}

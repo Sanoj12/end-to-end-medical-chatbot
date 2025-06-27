@@ -6,6 +6,7 @@ python-dotenv
 googletrans
 langchain-pinecone
 sentence-transformers
+langchain_huggingface
 langgraph
 langchain-tavily
 langsmith
