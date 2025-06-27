@@ -1,0 +1,17 @@
+langchain
+langchain_community
+
+langchain_groq
+python-dotenv
+googletrans
+langchain-pinecone
+sentence-transformers
+langgraph
+langchain-tavily
+langsmith
+pypdf
+pinecone[grpc]
+langgraph-cli[lnmem]
+
+streamlit
+-e .
